@@ -6,11 +6,17 @@ This project highlighted a very real problem companies face with the quantity of
 
 ## Results
 *Of the around 300,000 Pewlett Hackard employee around 52,000 are reaching retirement age
+
 *Retiremnet Eligible Employee Count for Vital Roles:
+
     *Senior Engineer = 25916
+
     *Senior Staff= 24926
+
     *Engineer= 9285
+
 *In the vital roles:  Senior Engineer, Senior Staff, Assistant Engineer; there about 1,500 employees eligible for mentorship
+
 *Many of these retiremnet eligible employees spent most of their career at Pewlett Hackard working there around 30years.
 
 ## Summary
