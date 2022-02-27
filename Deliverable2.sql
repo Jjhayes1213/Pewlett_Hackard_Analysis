@@ -202,10 +202,13 @@ ON dept_emps.emp_no = title.emp_no
 
 --8)Filter data on to_date column to all current employees, then filter the data on the birth_date 
 --columns (jan 1,1965-12,31,1965)
+DROP TABLE mentorship_eligibility;
 SELECT emp_no, first_name, last_name, title, birth_date, to_date, from_date
 INTO mentorship_eligibility
 FROM emp_new
 WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+AND (from_date = '9999-01-01')
 ORDER BY emp_no, first_name, last_name, birth_date DESC;
+
 
 SELECT * FROM mentorship_eligibility
