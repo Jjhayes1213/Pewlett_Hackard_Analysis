@@ -206,7 +206,7 @@ DROP TABLE mentorship_eligibility;
 SELECT emp_no, first_name, last_name, title, birth_date, to_date, from_date
 INTO mentorship_eligibility
 FROM emp_new
-WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+WHERE (birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 AND (from_date = '9999-01-01')
 ORDER BY emp_no, first_name, last_name, birth_date DESC;
 
